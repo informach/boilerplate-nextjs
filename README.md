@@ -19,7 +19,13 @@ This project uses lot of stuff as:
 
 ## Getting Started
 
-First, run the development server:
+First, make husky config file executable:
+
+```bash
+chmod +x .husky/pre-commit
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
